@@ -1,0 +1,1 @@
+We are creating a website for Seed Spot to allow alumni to access course information.

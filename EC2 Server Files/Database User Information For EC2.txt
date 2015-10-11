@@ -1,0 +1,13 @@
+define('DB_NAME', 'wordpress344');
+
+
+/** MySQL database username */
+
+define('DB_USER', 'wordpressuser344');
+
+
+/** MySQL database password */
+
+define('DB_PASSWORD', 'zI91.7KcY%Cl');
+
+//Obtained from EC2 Wordpress instance's config file

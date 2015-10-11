@@ -7,7 +7,7 @@ Features added consisted of multiple discussion boards, contact information, and
 <h2>Integration Notes</h2>
 This readme will detail the process of integrating the students and alumni portal with Seed Spot’s website. There are two options for integrating the two: Pulling our wordpress instance into Seed Spot’s, or pulling Seed Spot’s wordpress into ours.
 
-<h3>Pulling our wordpress instance into Seed Spot’s</h3?
+<h3>Pulling our wordpress instance into Seed Spot’s</h3>
 Pulling our wordpress instance into Seed Spot’s will require a few steps. First, setup the wordpress instance so that it can be run and displayed in the browser (giving access to the dashboard). Second, replace Seed Spot’s plugin folder with our wordpress instance’s plugins folder. We have added numerous plugins to the website to make the student portal work, and those plugins need to be added before doing anything else. Next, use a plugin like WP Options Importer to export the plugin settings that have been created for the plugins we have added. Be careful when importing the plugin settings that you do not overwrite any host settings. Once the plugins and settings are added, use Wordpress’ importer tool to export our wordpress database. Using the importer tool on the Seed Spot wordpress, import the xml file that was created and add our database to SeedSpot (be sure to check import file attachments). This process should create all the pages, menus, and headers we created. Finally, go through the website and resolve any issues caused by the merge, including dead links, bad redirects, and duplicate menus. Ideally, after this cleaning process, the student portal should be fully integrated into Seed Spot.
 
 <h3>Pulling Seed Spot into our wordpress instance</h3>
